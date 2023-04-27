@@ -2,7 +2,6 @@ import { Profile } from 'components/Profile/Profile';
 import { Friends } from 'components/Friends/Friends';
 import { Statistic } from 'components/Statistic/Statistic';
 import { Transactions } from 'components/Transactions/Transactions';
-import user from '../data/user.json';
 import userstat from '../data/statistic.json'
 
 
