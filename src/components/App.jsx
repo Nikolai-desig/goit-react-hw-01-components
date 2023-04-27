@@ -1,16 +1,19 @@
+import { Profile } from 'components/Profile/Profile';
+import { Friends } from 'components/Friends/Friends';
+import { Statistic } from 'components/Statistic/Statistic';
+import { Transactions } from 'components/Transactions/Transactions';
+import user from '../data/user.json';
+import userstat from '../data/statistic.json'
+
+
+import { user } from 'data/user.json';
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div>
+      <Profile />
+      <Friends />
+      <Statistic />
+      <Transactions />
     </div>
   );
 };
