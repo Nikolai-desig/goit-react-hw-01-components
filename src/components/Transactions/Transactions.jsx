@@ -1,4 +1,4 @@
-import PropTypes, { func } from 'prop-types';
+import PropTypes from 'prop-types';
 import css from 'components/Transactions/Transactions.module.css'
 import transactions from 'data/transactions.json';
 
