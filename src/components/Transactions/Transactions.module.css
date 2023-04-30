@@ -1,0 +1,21 @@
+.theader {
+  color: aliceblue;
+  font-size: 15px;
+  letter-spacing:0.2cm;
+
+
+  text-transform: uppercase;
+  background-color: rgb(58, 171, 199);
+}
+
+.th_table{
+    padding: 20px;
+    width: 200px;
+}
+
+.td_table {
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(223, 223, 223);
+    text-align: center;
+}

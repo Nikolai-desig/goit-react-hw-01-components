@@ -1,9 +1,9 @@
-// import React from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { App } from 'components/App'
 
 
-ReactDOM.createRoot(document.getElementById('root')).render(App);
+ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
 // const users = [
 //   { name: 'Lexa', age: 20 },
 //   { name: 'Lexa1', age: 201 },
