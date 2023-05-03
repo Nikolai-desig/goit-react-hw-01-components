@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import css from 'components/Statistic/Statistic.module.css';
 
-export function Statistic({ statistic }) {
+export function Statistic({ title, statistic }) {
   const stat = (
     
     <ul className={css.stat_list}>
@@ -15,7 +15,7 @@ export function Statistic({ statistic }) {
   );
   return (
     <section className={css.statistics}>
-      <h2 className={css.title}>Upload stats</h2>
+      {title && <h2 className={css.title}>Upload stats</h2>}
       {stat}
     </section>
   );
