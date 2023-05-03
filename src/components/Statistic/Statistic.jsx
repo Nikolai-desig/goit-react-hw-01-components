@@ -3,6 +3,7 @@ import css from 'components/Statistic/Statistic.module.css';
 
 export function Statistic({ statistic }) {
   const stat = (
+    
     <ul className={css.stat_list}>
       {statistic.map(({ id, label, percentage }) => (
         <li key={id} className={css.item}>
@@ -12,7 +13,12 @@ export function Statistic({ statistic }) {
       ))}
     </ul>
   );
-  return <section className={css.statistics}>{stat}</section>;
+  return (
+    <section className={css.statistics}>
+      <h2 className={css.title}>Upload stats</h2>
+      {stat}
+    </section>
+  );
 }
 
 Statistic.propTypes = {
